@@ -1,5 +1,7 @@
 {% extends 'first/index.html' %}
+{% load staticfiles %}
 {% block content %}
+<link href="{% static 'css/hi.css' %}" rel="stylesheet">
 <div class="container">
     <div class = "hi">
         <form method='POST'>
